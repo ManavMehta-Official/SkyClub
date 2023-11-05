@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/SkyClub/static/css/main.ea92f228.css",
+    "main.js": "/SkyClub/static/js/main.303e38a6.js",
+    "static/media/worldMap.svg": "/SkyClub/static/media/worldMap.05120e2df7589d8695e8.svg",
+    "static/media/vistara.svg": "/SkyClub/static/media/vistara.d74fbe9ca2551ef40b3b376920977b0c.svg",
+    "static/media/airindia.svg": "/SkyClub/static/media/airindia.5280815050258ff7be5d6cbaff81136d.svg",
+    "static/media/spicejet.svg": "/SkyClub/static/media/spicejet.d5483bccaf4e5da0530810ef4f26784d.svg",
+    "static/media/airasia.svg": "/SkyClub/static/media/airasia.09aca8ea0c4b6b767df0a36acafc5c9c.svg",
+    "static/media/indigo.svg": "/SkyClub/static/media/indigo.1d5ec8dd6bde606b798e4c43dca15ff6.svg",
+    "static/media/goair.svg": "/SkyClub/static/media/goair.d393f21adcfb87231df0a714664d50e7.svg",
+    "static/media/logo.svg": "/SkyClub/static/media/logo.8fa5bbe7668dea84beb30abe9ac90509.svg",
+    "index.html": "/SkyClub/index.html",
+    "main.ea92f228.css.map": "/SkyClub/static/css/main.ea92f228.css.map",
+    "main.303e38a6.js.map": "/SkyClub/static/js/main.303e38a6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea92f228.css",
+    "static/js/main.303e38a6.js"
+  ]
+}
