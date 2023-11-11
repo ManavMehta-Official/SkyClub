@@ -16,7 +16,7 @@ import axios from "axios";
 import fareClassData from "../data/fareClassData";
 import IndianAirports from "../data/IndianAirports";
 
-const API_KEY = "Yqcc5x_pmmngpq4f9_LHvkzIcibzPX01";
+const API_KEY = process.env.REACT_APP_API_KEY;
 
 
 export default function Flights() {
