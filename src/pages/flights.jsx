@@ -186,7 +186,7 @@ export default function Flights() {
         date_from: params.date_from,
         date_to: params.date_to,
         curr: "INR",
-        limit: 5,
+        limit: 15,
         sort: "price",
         max_stopovers: 0
       }
