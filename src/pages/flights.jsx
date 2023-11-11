@@ -297,9 +297,9 @@ export default function Flights() {
               var arr_time = `${loc_arr_time.getUTCHours()}:${(loc_arr_time.getUTCMinutes() < 10 ? '0' : '') + loc_arr_time.getUTCMinutes()}`;
 
               var dep_date = new Date(depDate[i]["local_departure"])
-              dep_date = `${dep_date.getUTCDate()}/${dep_date.getUTCMonth()}/${dep_date.getUTCFullYear()}`
+              dep_date = `${dep_date.getUTCDate()}/${dep_date.getUTCMonth() + 1}/${dep_date.getUTCFullYear()}`
               var arr_date = new Date(arrDate[i]["local_arrival"])
-              arr_date = `${arr_date.getUTCDate()}/${arr_date.getUTCMonth()}/${arr_date.getUTCFullYear()}`
+              arr_date = `${arr_date.getUTCDate()}/${arr_date.getUTCMonth() + 1}/${arr_date.getUTCFullYear()}`
 
               var flight_duration = duration[i]["duration"]["total"];
               var flight_quality = Math.trunc(qaulity[i]["quality"]);
