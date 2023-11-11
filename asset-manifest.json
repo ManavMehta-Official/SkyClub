@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/SkyClub/static/css/main.e269184d.css",
-    "main.js": "/SkyClub/static/js/main.7907c3cc.js",
+    "main.js": "/SkyClub/static/js/main.dc4f562d.js",
     "static/media/worldMap.svg": "/SkyClub/static/media/worldMap.05120e2df7589d8695e8.svg",
     "index.html": "/SkyClub/index.html",
     "static/media/logo.svg": "/SkyClub/static/media/logo.8fa5bbe7668dea84beb30abe9ac90509.svg",
     "main.e269184d.css.map": "/SkyClub/static/css/main.e269184d.css.map",
-    "main.7907c3cc.js.map": "/SkyClub/static/js/main.7907c3cc.js.map"
+    "main.dc4f562d.js.map": "/SkyClub/static/js/main.dc4f562d.js.map"
   },
   "entrypoints": [
     "static/css/main.e269184d.css",
-    "static/js/main.7907c3cc.js"
+    "static/js/main.dc4f562d.js"
   ]
 }
