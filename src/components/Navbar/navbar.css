@@ -1,0 +1,45 @@
+.navbar {
+    box-shadow: none !important;
+    background-color: #fff !important;
+    /* background-color: #1274d9; */
+}
+
+.logo {
+    width: 2rem;
+    height: auto;
+    align-self: auto;
+}
+
+.nav-brand {
+    font-size: 1.5rem !important;
+    color: #000;
+    font-family: var(--displayFont) !important;
+    font-weight: 900 !important;
+    align-self: auto;
+    text-decoration: none;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                NAVBAR LINKS                                */
+/* -------------------------------------------------------------------------- */
+
+.nav-items {
+    justify-content: right;
+}
+
+.nav-item {
+    margin-right: 1% !important;
+    color: #000 !important;
+    font-weight: 500 !important;
+    border-radius: 2em !important;
+    padding-inline: 2% !important;
+}
+
+#flights-btn {
+    border: 1px solid var(--blue) !important;
+    border-radius: 2em;
+    padding-inline: 2%;
+    color: #fff !important;
+    background-color: var(--blue) !important;
+    margin-right: 0 !important;
+}

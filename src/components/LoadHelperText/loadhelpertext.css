@@ -1,0 +1,44 @@
+@media (min-width: 900px) {
+    .loader-container {
+        padding-block: 2%;
+        padding-inline: 10%;
+    }
+    .loader-wrapper {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+        padding-block: 2%;
+        padding-inline: 10%;
+        border-radius: 1em;
+    }
+}
+
+@media (max-width: 899px) {
+    .loader-container {
+        padding-block: 2%;
+        padding-inline: 2%;
+    }
+    .loader-wrapper {
+        padding-block: 1%;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+        padding-inline: 1%;
+        border-radius: 1em;
+    }
+}
+
+
+
+
+
+code{
+    background-color: var(--blue);
+    color: white;
+    padding-block: 0.2%;
+    padding-inline: 1.4%;
+    border-radius: 50em;
+}
+
+.search-guide-field{
+    background-color: rgba(220, 220, 220, 0.454);
+    padding-block: 0.2%;
+    padding-inline: 2%;
+    border-radius: 50em;
+}
