@@ -1,0 +1,5 @@
+.hero-banner {
+    background: url('../../assets/plane.webp');
+    background-size:cover;
+    height: 60vh;
+}

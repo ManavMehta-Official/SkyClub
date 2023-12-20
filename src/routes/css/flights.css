@@ -1,0 +1,33 @@
+.search-container {
+    padding-inline: 7% !important;
+    padding-block: 5% !important;
+    border-radius: 1em !important;
+    background: url('../../assets/searchBanner.webp') !important;
+    background-size: cover !important;
+}
+
+.search-wrapper {
+    background-color: var(--text);
+    border: 1px solid var(--grayBorder);
+    border-radius: 0.4em;
+    padding-inline: 5%;
+    padding-block: 2%;
+    margin-top: 2%;
+    color: var(--dark)
+}
+
+.config-field {
+    color: var(--dark) !important;
+    background-color: transparent !important;
+    border: none !important;
+    font-size: medium;
+    margin-inline: 1%
+}
+
+.config-field:hover {
+    cursor: pointer !important;
+}
+
+.config-field:focus {
+    outline: none !important;
+}

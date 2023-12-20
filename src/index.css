@@ -1,0 +1,172 @@
+/* ---------------------------------- FONTS --------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  --displayFont: 'Montserrat', sans-serif;
+
+  --info: #0275D8;
+  --indigo: #4669dc;
+  --fadedIndigo: #d9e4fc;
+  --dark: #1a1c1e;
+  --text: #FEFFFF;
+  --gray: #3e3e3e;
+  --gray2: #434547;
+  --muted: #dce4e8;
+  --green: #19a096;
+
+  color: #FFF;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+body {
+  margin: 0;
+  background-color: var(--dark);
+  place-items: center;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.indigo {
+  color: var(--indigo);
+}
+
+.fw-900 {
+  font-weight: 900 !important;
+}
+
+.fw-700 {
+  font-weight: 700 !important;
+}
+
+.capitalize {
+  text-transform: capitalize !important;
+}
+
+.indigo-btn {
+  background-color: var(--indigo) !important;
+  color: var(--text) !important;
+  text-transform: none !important;
+}
+
+.indigo-btn-outline {
+  border: 1.2px solid var(--indigo) !important;
+  background-color: transparent !important;
+  color: var(--indigo) !important;
+  text-transform: none !important;
+}
+
+.indigo-btn-outline:hover {
+  border: 1.2px solid var(--indigo) !important;
+  background-color: #eeeeee !important;
+  color: var(--indigo) !important;
+  text-transform: none !important;
+}
+
+.gray-btn {
+  background-color: var(--gray) !important;
+  color: var(--text) !important;
+  text-transform: none !important;
+}
+
+.route-card {
+  background-color: var(--text);
+  color: var(--dark);
+  border-radius: 0.4em;
+  padding-inline: 4%;
+  padding-block: 2%;
+  margin-top: 5%;
+}
+
+.gray-outline-btn {
+  border: 1.2px solid var(--gray);
+  background-color: transparent !important;
+  text-transform: none !important;
+}
+
+.gray-outline-btn:hover {
+  background-color: var(--gray) !important;
+  text-transform: none !important;
+}
+
+.support {
+  color: var(--gray) !important;
+}
+
+.support:hover {
+  color: #FF5CCD !important;
+}
+
+.recommended-label {
+  background-color: var(--fadedIndigo) !important;
+  color: var(--indigo) !important;
+  border-radius: 0.4em !important;
+}
+
+.quality-label {
+  background-color: #FAEB9E !important;
+  color: #8a7500 !important;
+  border-radius: 0.4em !important;
+}
+
+.economy-label {
+  background-color: var(--green) !important;
+  color: var(--text) !important; 
+}
+
+.economy-labelMobile {
+  background-color: #19a096 !important;
+  color: #FFF !important;
+  border-radius: 0.4em !important;
+}
+
+.upgrade-label {
+  background-color: var(--indigo) !important;
+  color: var(--text) !important; 
+}
+
+.stopover-label {
+  background-color: var(--indigo) !important;
+  color: #FFF !important;
+  /* background-color: #FF904F !important; */
+}
+
+.shadow {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.worldmap-bg {
+  background-image: url('./assets/svgs/worldMap.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.meteor-bg {
+  background-image: url('./assets/svgs/meteor.svg') !important;
+  background-size: cover;
+}
+
+.cloud-bg {
+  background-image: url('./assets/searchBanner.webp') !important;
+  background-size: cover;
+}
+
+
+

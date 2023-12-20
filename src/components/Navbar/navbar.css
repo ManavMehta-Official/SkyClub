@@ -1,0 +1,41 @@
+@media (min-width: 900px) {
+    .md-flex {
+        display: flex !important;
+    }
+
+    .md-none {
+        display: none !important;
+    }
+}
+
+@media (max-width: 899px) {
+    .xs-none {
+        display: none !important;
+    }
+
+    .xs-flex {
+        display: flex !important;
+    }
+}
+
+.contact-btn {
+    background-color: var(--indigo) !important;
+    color: var(--text) !important;
+}
+
+.nav-link {
+    color: var(--text) !important;
+}
+
+.nav-link:hover {
+    color: var(--text) !important;
+    background-color: #212426 !important;
+}
+
+.mobile-menu-link {
+    text-transform: capitalize !important;
+    text-align: left !important;
+    background-color: transparent !important;
+    color: var(--dark) !important;
+    text-decoration: none !important;
+}
